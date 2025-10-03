@@ -25,6 +25,41 @@ select{
   background: #f3f6ff;
 }
 
+
+.example{
+  margin-bottom: 15px;
+}
+
+.examples button{
+  margin: 5px;
+  padding: 4px 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-block{
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.execute-btn{
+  padding: 10px 15px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.output-block{
+  margin-top: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
